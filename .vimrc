@@ -11,7 +11,7 @@ Plugin 'Quramy/tsuquyomi'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'Yggdroot/indentLine'
 autocmd BufRead,BufNewFile *.vue setlocal filetype=vue.html.javascript.css
-autocmd BufWritePost *.ts,*.tsx call tslint#run('a', get_winid())
+" autocmd BufWritePost *.ts,*.tsx call tslint#run('a', get_winid())
 " On pressing tab, insert 2 spaces
 set expandtab
 " show existing tab with 2 spaces width
