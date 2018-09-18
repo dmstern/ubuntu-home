@@ -23,3 +23,7 @@ autocmd BufNewFile,BufRead *.ts setlocal filetype=typescript
 set number
 let g:indent_guides_enable_on_vim_startup = 1
 let g:indentLine_char = "·"
+:hi CursorColumn cterm=NONE ctermbg=235
+:hi CursorLine   cterm=NONE ctermbg=237
+set cursorline
+
